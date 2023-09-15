@@ -1,0 +1,35 @@
+.about-us {
+}
+.container {
+}
+.about-row {
+  display: flex;
+  flex-direction: column;
+}
+.about-row__text {
+}
+h1 {
+  font-size: 124px;
+  font-weight: 800;
+  line-height: 140px;
+  margin-bottom: 30px;
+}
+p {
+  color: #64646a;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+.about-row__buttons {
+}
+
+.about-row__app {
+  border-radius: 126px;
+  padding: 20px 40px;
+  background: #1b1b1d;
+  color: white;
+  text-transform: uppercase;
+}
+.about-row__picture {
+}

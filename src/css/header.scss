@@ -1,0 +1,33 @@
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+}
+
+.header-row__navigation {
+  display: flex;
+  column-gap: 40px;
+}
+
+.header-row__buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.header-row__logo {
+  margin-right: 358px;
+}
+
+.header-row__voucher {
+  text-transform: uppercase;
+  width: 208px;
+  border-radius: 63px;
+  background: #1b1b1d;
+  padding: 15px 30px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  color: white;
+}
