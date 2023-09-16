@@ -1,20 +1,18 @@
+@import "variables";
 @import "./reset";
 @import "./header";
 @import "./about-us";
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;800&display=swap");
 
-$font: "Jost", sans-serif;
-$desktopWidth: 1240px;
-
 body {
   font-family: $font;
   background-color: #eeeff1;
   font-style: normal;
-  color: #1b1b1d;
+  color: $mainDarkColor;
 }
 
 a {
-  color: #1b1b1d;
+  color: $mainDarkColor;
 }
 
 .container {
